@@ -320,12 +320,3 @@ Authorization: tu_claveApi_aqui
     "mensaje": "Registro eliminado correctamente"
 }
 ```
-
----
-
-## Notas Importantes
-
-- Todos los endpoints de contactos requieren autenticación mediante la cabecera `Authorization` con la `claveApi`.
-- Puedes usar `http://127.0.0.1` o `http://localhost` indistintamente.
-- Los endpoints de registro y login no requieren autenticación.
-- El formato de respuesta por defecto es JSON, pero puedes agregar `?formato=xml` para obtener respuestas en XML.
